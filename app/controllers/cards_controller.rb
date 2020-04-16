@@ -15,8 +15,9 @@ class CardsController < ApplicationController
     end
 
     private
-    
+
     def card_params
-        params.require(:card).permit(:thumbnailUrl)
+        params.require(:card).permit(:imgurl)
+      
     end
 end
