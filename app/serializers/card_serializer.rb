@@ -1,3 +1,3 @@
 class CardSerializer < ActiveModel::Serializer
-  attributes :id, :imgurl
+  attributes :id, :thumbnailUrl
 end

@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Card.destroy_all
+User.destroy_all
+GameData.destroy_all
+
+
+cards = [
+  {thumbnailUrl: '../storage/img/AntonioReid.png'},
+  {thumbnailUrl: '../storage/img/BenBrower.png'},
+  {thumbnailUrl: '../storage/img/BenSullivan.png'},
+]
+cards.each {|card| Card.create(card)}
