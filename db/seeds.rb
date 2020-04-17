@@ -9,6 +9,7 @@
 Card.destroy_all
 
 cards = [
+  {imgurl: 'http://localhost:3001/images/AaidenWitten.jpg'},
   {imgurl: 'http://localhost:3001/images/AntonioReid.png'},
   {imgurl: 'http://localhost:3001/images/BenBrower.png'},
   {imgurl: 'http://localhost:3001/images/BenSullivan.png'},
@@ -30,6 +31,15 @@ cards = [
   {imgurl: 'http://localhost:3001/images/MatthewJagiello.png'},
   {imgurl: 'http://localhost:3001/images/MaylenePoulsen.png'},
   {imgurl: 'http://localhost:3001/images/PatrickKennedy.png'},
-  {imgurl: 'http://localhost:3001/images/ReeseBowman.png'}
+  {imgurl: 'http://localhost:3001/images/ReeseBowman.png'},
+  {imgurl: 'http://localhost:3001/images/AviFlom.jpeg'},
+  {imgurl: 'http://localhost:3001/images/DaneDawson2.png'},
+  {imgurl: 'http://localhost:3001/images/DaneDawson3.jpeg'},
+  {imgurl: 'http://localhost:3001/images/FlatironSchool.png'},
+  {imgurl: 'http://localhost:3001/images/JaqHerbert.png'},
+  {imgurl: 'http://localhost:3001/images/JelenaStjepanovic.png'},
+  {imgurl: 'http://localhost:3001/images/JoelleAvocado.png'},
+  {imgurl: 'http://localhost:3001/images/JulianaStackland2.jpeg'},
+  {imgurl: 'http://localhost:3001/images/LughWilson2.png'} 
 ]
 cards.each {|card| Card.create(card)}
