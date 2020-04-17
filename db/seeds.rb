@@ -51,6 +51,7 @@ cards = [
   {imgurl: 'http://localhost:3001/images/JelenaStjepanovic.png'},
   {imgurl: 'http://localhost:3001/images/JoelleAvocado.png'},
   {imgurl: 'http://localhost:3001/images/JulianaStackland2.jpeg'},
-  {imgurl: 'http://localhost:3001/images/LughWilson2.png'} 
+  {imgurl: 'http://localhost:3001/images/LughWilson2.png'},
+  {imgurl: 'http://localhost:3001/images/RickGlascock.png'}
 ]
 cards.each {|card| Card.create(card)}
